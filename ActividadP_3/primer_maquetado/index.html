@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Formulario#1</h1>
+    </header>
+
+    <div class="form-container">
+        <form>
+            <div class="form-register">
+
+                
+                <label for="lastName">Apellido</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Apellidos" required>
+
+                
+                <label for="firstName">Nombre</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Nombres" required>
+
+                
+                <label for="birthDate">Fecha de nacimiento</label>
+                <div class="date-selectors">
+                    <select id="birthDay" name="birthDay" required>
+                        <option>Día</option>
+                    </select>
+                    <select id="birthMonth" name="birthMonth" required>
+                        <option>Mes</option>
+                    </select>
+                    <select id="birthYear" name="birthYear" required>
+                        <option>Año</option>
+                    </select>
+                </div>
+
+                
+                <label for="city">Ciudad</label>
+                <input type="text" id="city" name="city" placeholder="Ciudad de nacimiento" required>
+
+                
+                <label for="birthCountry">País de nacimiento</label>
+                <select id="birthCountry" name="birthCountry" required>
+                    <option value="">Seleccione un país</option>
+                </select>
+
+                
+                <label for="nationality">Nacionalidad</label>
+                <select id="nationality" name="nationality" required>
+                    <option value="">Seleccione una nacionalidad</option>
+                </select>
+
+                
+                <label for="passportNumber">Número de pasaporte</label>
+                <input type="text" id="passportNumber" name="passportNumber" placeholder="Número de su pasaporte" required>
+
+                
+                <label for="passportIssueCountry">País de emisión de su pasaporte</label>
+                <select id="passportIssueCountry" name="passportIssueCountry" required>
+                    <option value="">Seleccione un país</option>
+                </select>
+
+                <label for="passportIssueDate">Fecha de emisión del pasaporte</label>
+                <div class="date-selectors">
+                    <select id="issueDay" name="issueDay" required>
+                        <option>Día</option>
+                    </select>
+                    <select id="issueMonth" name="issueMonth" required>
+                        <option>Mes</option>
+                    </select>
+                    <select id="issueYear" name="issueYear" required>
+                        <option>Año</option>
+                    </select>
+                </div>
+
+                <label for="passportExpiryDate">Fecha de vencimiento del pasaporte</label>
+                <div class="date-selectors">
+                    <select id="expiryDay" name="expiryDay" required>
+                        <option>Día</option>
+                    </select>
+                    <select id="expiryMonth" name="expiryMonth" required>
+                        <option>Mes</option>
+                    </select>
+                    <select id="expiryYear" name="expiryYear" required>
+                        <option>Año</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

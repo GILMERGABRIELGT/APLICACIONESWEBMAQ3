@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #333;
+    background-color: #1a1a1a;
+    color: #00ff00;
+}
+
+.header-links, .top-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-links a, .top-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00ff00;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #ff00ff;
+    margin: 20px 0;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #333;
+    border-radius: 24px;
+    margin-top: 20px;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    background-color: #1a1a1a;
+    color: #00ff00;
+    transition: all 0.3s ease;
+}
+
+.search-bar:hover, .search-bar:focus {
+    border-color: #ff00ff;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ff00ff;
+    border: 1px solid #ff00ff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #cc00cc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.additional-links {
+    margin-top: 10px;
+}
+
+.additional-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00ff00;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #00ff00;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #00ff00;
+}
